@@ -9,8 +9,17 @@
 
   --text-primary-color: #222222;
   --text-secundary-color: #ffffff;
-}
 
+  --titles-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
+@font-face{
+font-family: "Monterrat";
+src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+font-style: normal;
+font-display: swap;
+}
 
 /*CSS RESET*/
 body, img, h1, p, fieldset, legend, label, input, select, textarea, button {

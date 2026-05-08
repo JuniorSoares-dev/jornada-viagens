@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative;
 }
 .logo {
   display: inline-block;
@@ -14,11 +15,21 @@ header {
 .navegation-menu {
   margin-top: 24px;
 }
+/*MENU ESTA EM RELACAO AO HEADER*/
 .menu-links {
   display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
 }
 .menu-links.active{
   display:block
+}
+.menu-links ul li a{
+  color: var(--text-secundary-color);
+  text-decoration: none;
 }
 .menu-img{
   cursor: pointer;

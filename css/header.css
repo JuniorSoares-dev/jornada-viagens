@@ -31,6 +31,9 @@ header {
   color: var(--text-secundary-color);
   text-decoration: none;
 }
+.menu-links li{
+margin: 16px 0;;
+}
 .menu-img{
   cursor: pointer;
 }

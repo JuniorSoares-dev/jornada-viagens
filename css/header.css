@@ -24,16 +24,38 @@ header {
   width: 100%;
   background-color: var(--background-tertiary-color);
 }
-.menu-links.active{
-  display:block
+.menu-links.active {
+  display: block;
 }
-.menu-links ul li a{
+.menu-links ul li a {
   color: var(--text-secundary-color);
   text-decoration: none;
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
 }
-.menu-links li{
-margin: 16px 0;;
+.menu-links li {
+  margin: 16px 0;
 }
-.menu-img{
+.menu-img {
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .navegation-menu {
+    margin: 0;
+  }
+  .menu-img {
+    display: none;
+  }
+  .menu-links {
+    display: block;
+    position: static;
+    margin: 0;
+  }
+  .menu-links ul {
+    display: flex;
+    width: 467px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
 }

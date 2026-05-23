@@ -42,6 +42,18 @@ body {
   font-family: "Monterrat";
   color: var(--text-primary-color);
 }
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+section.hero {
+  width: 100%;
+  margin: 0;
+}
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--titles-weight);
@@ -56,7 +68,7 @@ body {
   margin: 16px auto 32px;
 }
 .button {
-  width: 280px;
+  min-width: 280px;
   height: 64px;
   color: var(--text-secundary-color);
   font-weight: var(--titles-weight);
@@ -66,14 +78,37 @@ body {
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
+  section {
+    width: 648px;
+  }
+  .section-title {
+    width: 100%;
+    margin: 0 auto;
+  }
   .section-title h2 {
     font-size: 32px;
   }
   @media screen and (min-width: 1024px) {
+    section {
+      width: 1000px;
+    }
+
     .button:hover {
       background-color: var(--button-primary-color);
     }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
+  }
+}
+@media screen and (min-width:1920px){
+  section{
+    width: 1400px;
   }
 }

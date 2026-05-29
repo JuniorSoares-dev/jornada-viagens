@@ -16,10 +16,6 @@
   text-decoration: none;
   color: var(--text-primary-color);
 }
-.categories-cards .card h3 {
-  font-size: 28px;
-  font-weight: var(--titles-weight);
-}
 .categories-cards .card.card.single-line {
   padding-top: 50px;
 }

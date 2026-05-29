@@ -77,7 +77,6 @@
   .destinations-itens {
     flex-direction: row;
   }
-
   .destinations .item.tokyo .img-item {
     background: url(../img/Tokyo-tablet-desk.jpg);
     background-size: cover;

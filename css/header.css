@@ -34,7 +34,7 @@
   display: block;
 }
 .menu-links ul li a {
-  color: var(--text-secundary-color);
+  color: var(--text-secondary-color);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
   font-size: 24px;

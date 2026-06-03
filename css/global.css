@@ -46,7 +46,8 @@ section {
   width: 312px;
   margin: 0 auto 88px;
 }
-section.hero {
+section.hero,
+section.bottom-hero {
   width: 100%;
   margin: 0;
 }
